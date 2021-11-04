@@ -18,7 +18,6 @@
     <link rel="stylesheet" href="./css/main.css" />
   </head>
   <body>
-    <h1>Contact page</h1>
     <!-- nav -->
     <div class="navbar">
       <div class="nav-center">
@@ -42,7 +41,87 @@
       </div>
     </div>
     <!-- main -->
-    <main class="page"></main>
+    <main class="page">
+      <section class="contact-container">
+        <article class="contact-info">
+          <h3>Want To Get In Touch?</h3>
+          <p>
+            Four dollar toast biodiesel plaid salvia actually pickled banjo
+            bespoke mlkshk intelligentsia edison bulb synth.
+          </p>
+          <p>Cardigan prism bicycle rights put a bird on it deep v.</p>
+          <p>
+            Hashtag swag health goth air plant, raclette listicle fingerstache
+            cold-pressed fanny pack bicycle rights cardigan poke.
+          </p>
+        </article>
+        <article>
+          <form class="form contact-form">
+            <!-- single form row -->
+            <div class="form-row">
+              <label for="name" class="form-label">your name</label>
+              <input type="text" name="name" id="name" class="form-input" />
+            </div>
+            <!-- end of form rown -->
+            <!-- single form row -->
+            <div class="form-row">
+              <label for="email" class="form-label">Your email</label>
+              <input type="text" name="email" id="email" class="form-input" />
+            </div>
+            <!-- end of form rown -->
+            <div class="form-row">
+              <label for="message" class="form-label">message</label>
+              <textarea
+                name="message"
+                id="message"
+                class="form-textarea"
+              ></textarea>
+            </div>
+            <button type="submit", class="btn btn-block">Submit</button>
+          </form>
+        </article>
+      </section>
+      <section class="featured-recipes">
+        <h5 class="featured-title">Look at this Awesomesouce</h5>
+        <!-- recipes list -->
+        <div class="recipes-list">
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-1.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Carne Asada</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-2.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Greek Ribs</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+          <!-- single recipe -->
+          <a href="single-recipe.html" class="recipe">
+            <img
+              src="./assets/recipes/recipe-3.jpeg"
+              class="img recipe-img"
+              alt=""
+            />
+            <h5>Vegetable Soup</h5>
+            <p>Prep : 15min | Cook : 5min</p>
+          </a>
+          <!-- end of single recipe -->
+        </div>
+        <!-- end of recipes list -->
+      </section>
+    </main>
     <footer class="page-footer">
       <p>
         &copy; <span id="date"></span>
